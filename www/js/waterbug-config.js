@@ -35,7 +35,7 @@ var fontShadowOffsetY = 0; // font shadow offset y
 var fontShadowBlur = 10; // font shadow blur
 
 // copyright options
-var orgName = 'Your News Organization';
+var orgName = 'Capital Public Radio';
 var freelanceString = 'for ' + orgName;
 
 var copyrightOptions = {

@@ -12,33 +12,20 @@ var $logoWrapper = null;
 
 var quotes = [
     {
-        "quote": "I'd been drinking.",
-        "source": "Dennis Rodman"
-    },
-    {
-        "quote": "I've made a huge mistake.",
-        "source": "G.O.B."
-    },
-    {
-        "quote": "Yes, I have smoked crack cocaine",
-        "source": "Toronto Mayor Rob Ford",
-        "size": 65
-    },
-    {
-        "quote": "Annyong.",
-        "source": "Annyong",
-        "size": 90
-    },
-    {
-        "quote": "STEVE HOLT!",
-        "source": "Steve Holt",
-        "size": 65
-    },
-    {
-        "quote": "Whoa, whoa, whoa. There's still plenty of meat on that bone. Now you take this home, throw it in a pot, add some broth, a potato. Baby, you've got a stew going.",
-        "source": "Carl Weathers",
+        "quote": "If you need anything that doesn’t cost me too much, let me know.",
+        "source": "Jerry Brown",
         "size": 40
-    }
+    },
+    {
+        "quote": "I would urge a modicum of stoicism and less of indulging your propensity to immediate gratification.",
+        "source": "Jerry Brown",
+        "size": 40
+    },
+    {
+        "quote": "I know there are some fearful men — I call them declinists — who want to put their head in a hole and hope reality changes. I don’t see it that way. This is a time to invest.",
+        "source": "Jerry Brown",
+        "size": 40
+    },
 ];
 
 
@@ -145,7 +132,7 @@ $(function() {
     $themeButtons.on('click', function() {
         $themeButtons.removeClass().addClass('btn btn-primary');
         $(this).addClass('active');
-        $poster.removeClass('poster-theme1 poster-theme2 poster-theme3 poster-theme4')
+        $poster.removeClass('poster-theme1 poster-theme2 poster-theme3 poster-theme4 poster-theme5')
                     .addClass('poster-' + $(this).attr('id'));
     });
 
